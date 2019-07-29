@@ -2,25 +2,31 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends React.Component {
+ 
 
+  render () {
+
+   
+
+    return (
+    <div className="App" >
+     <header>
+       Make the button
+     </header>
+     <section>
+        Make a simple web app that chenges the background color when a button is pressed.
+     </section>
+     <section>
+       <button >HERE</button>
+     </section>
+       
+    </div>
+  )
+
+  }
+    
+
+  
+}
 export default App;
